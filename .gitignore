@@ -1,0 +1,11 @@
+# Never commit secrets or the virtual environment.
+.env
+.venv/
+__pycache__/
+
+# Not part of the delivery the PDF asks for (code, CSV, run instructions, login/collection notes).
+CLAUDE.md
+.claude/
+Test balluff, conrad.pdf
+.idea/
+.vscode/

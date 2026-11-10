@@ -1,0 +1,8 @@
+# Exact versions, so every install gets the same, already-reviewed code.
+playwright==1.65.0
+beautifulsoup4==4.15.0
+python-dotenv==1.2.4
+# dependencies of the packages above
+greenlet==3.5.6
+soupsieve==4.1
+typing_extensions==4.16.0
