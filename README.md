@@ -37,7 +37,8 @@ one page at a time), so conrad.de has no reason to treat it as a bot and block i
    .venv/bin/python conrad_parser.py
    ```
 
-   A browser window opens and does the work (about 35 minutes). If Cloudflare shows a checkbox, click it.
+   A browser window opens and does the work. **Parsing 100 products takes about 35 minutes**
+   (about 20 seconds per product, because of the human-like pauses). If Cloudflare shows a checkbox, click it.
    The result is saved to `balluff_products.csv`.
 
 Steps 1–3 are needed only once. To run the script again, step 4 is enough.
